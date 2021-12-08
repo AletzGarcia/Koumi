@@ -1,0 +1,123 @@
+div#encabezado{
+	background-color: #1F1F1F;
+	widht:  auto;
+	height: 115px;
+	display: flex;
+	align-items: center;
+}
+div#encElems{
+	width: 800px;
+	height: 80px;
+	margin-left: 300px;
+	display: flex;
+	align-items: center;
+}
+img#logoEnc{
+	margin-left: 10px;
+	width: 78px;
+	height: 83px;
+	padding-right: 70px;
+}
+span#spEn{
+	display: flex;
+	align-items: center;
+	padding-right: 30px;
+}
+p#t1{
+	font-family: Helvetica,Arial,sans-serif;
+	letter-spacing: 0.5px;
+	font-size: 16px;
+	color: #CDCDCD;
+}
+p#t1:hover{
+	font-size: 20px;
+}
+div#principal{
+	background-color: #2F2F2F;
+	widht:  auto;
+	height: 850px;
+	display: flex;
+	flex-wrap: wrap;
+}
+div#desc{
+	widht:  auto;
+	margin-left: 60px;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+}
+div#imgp1{
+	width: 635px;
+	height: 600px;
+	margin-left: 300px;
+	margin-top: -100px;
+	display: flex;
+	flex-wrap: wrap;
+}
+img#is1{
+	margin-left: 15px;
+	width: 295px;
+	height: 295px;
+	border-radius: 5px;
+}
+img#ir1{
+	width: 700px;
+	height: 595px;
+	border-radius: 10px;
+}
+div#imgp2{
+	width: 700px;
+	height: 600px;
+	margin-top: -100px;
+	margin-left: 10px;
+	justify-content: center;
+	align-items: center;
+}
+p#t3{
+	font-family: Tahoma, Verdana, sans-serif;
+	letter-spacing: 1px;
+	font-size: 38px;
+	font-style: italic;
+	font-weight: bold;
+	color: #b7a08e;
+}
+div#pie{
+	background-color: #1F1F1F;
+	widht:  auto;
+	height: 160px;
+	display: flex;
+}
+div#pieC{
+	margin-left: 250px;
+	width: 500px;
+	height: 120px;
+}
+div#pieR{
+	margin-left: 660px;
+	width: 350px;
+	height: 120px;
+}
+div#lredes{
+	width: 330px;
+	height: 60px;
+	margin-top: -8px;
+	margin-left: 10px;
+	display: flex;
+}
+img#logot{
+	width: 39px;
+	height: 33px;
+}
+img#logof{
+	margin-left: 50px;
+	width: 20px;
+	height: 35px;
+}
+p#t2{
+	letter-spacing: 1.5px;
+	font-size: 18px;
+	color: #747474;
+}
+a{
+text-decoration: none;
+} 
