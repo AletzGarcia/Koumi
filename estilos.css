@@ -46,6 +46,12 @@ div#principalm{/*contenedor principal para la pagina del menu*/
 	display: flex;
 	flex-wrap: wrap;
 }
+div#principalg{/*contenedor principal para la pagina de la galeria*/
+	background-color: #2F2F2F;
+	widht:  auto;
+	height: 7700px;
+	display: block;
+}
 div#desc{/* contiene la descripcion del restaurant usada en index */
 	widht:  auto;
 	margin-left: 60px;
@@ -143,6 +149,18 @@ img#imgmL{/*formato para el logo en el menu*/
 	margin-left: 600px;
 	width: 760px;
 	height: 556px;
+}
+img#imgg{/*formato para las imagenes de la galeria*/
+	margin-left: 400px;
+	margin-top: 100px;
+	width: 600px;
+	height: 450px;
+	border-radius: 30px;
+}
+img#imgg:hover{/*agrandando la imagen de la geleria*/
+	width: 1200px;
+	height: 900px;
+	
 }
 div#pie{ /* div base del pie de pagina */
 	background-color: #1F1F1F;
