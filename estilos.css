@@ -162,6 +162,20 @@ img#imgg:hover{/*agrandando la imagen de la geleria*/
 	height: 900px;
 	
 }
+img#promoPrin{
+	margin-left: 360px;
+	margin-top: 20px;
+	margin-right: 350px;
+	width: 1200px;
+	height: 330px;
+	border-radius: 20px;
+}
+img#promosec{
+	margin-left: 230px;
+	width: 600px;
+	height: 450px;
+	border-radius: 30px;
+}
 div#pie{ /* div base del pie de pagina */
 	background-color: #1F1F1F;
 	widht:  auto;
