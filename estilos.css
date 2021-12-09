@@ -1,52 +1,59 @@
-div#encabezado{
+div#encabezado{/* base del encabezado */
 	background-color: #1F1F1F;
 	widht:  auto;
 	height: 115px;
 	display: flex;
 	align-items: center;
 }
-div#encElems{
+div#encElems{/* encapsulado de los elementos del encabezado */
 	width: 800px;
 	height: 80px;
 	margin-left: 300px;
 	display: flex;
 	align-items: center;
 }
-img#logoEnc{
+img#logoEnc{/*logo en el encabezado */
 	margin-left: 10px;
 	width: 78px;
 	height: 83px;
 	padding-right: 70px;
 }
-span#spEn{
+span#spEn{/* tipo de span que encierra a cada seccion del encabezado*/
 	display: flex;
 	align-items: center;
 	padding-right: 30px;
 }
-p#t1{
+p#t1{/* texto 1: formato del texto de las secciones del encabezado */
 	font-family: Helvetica,Arial,sans-serif;
 	letter-spacing: 0.5px;
 	font-size: 16px;
 	color: #CDCDCD;
 }
-p#t1:hover{
+p#t1:hover{/* aumenta el tamaño del texto 1 */
 	font-size: 20px;
 }
-div#principal{
+div#principal{/* contiene los elementos que estan entre el encabezado y el pie*/
 	background-color: #2F2F2F;
 	widht:  auto;
 	height: 850px;
 	display: flex;
 	flex-wrap: wrap;
 }
-div#desc{
+div#principalm{/*contenedor principal para la pagina del menu*/
+	background-color: #2F2F2F;
+	widht:  auto;
+	height: 5550px;
+	display: flex;
+	flex-wrap: wrap;
+}
+div#desc{/* contiene la descripcion del restaurant usada en index */
 	widht:  auto;
 	margin-left: 60px;
 	height: 150px;
 	display: flex;
 	justify-content: center;
 }
-div#imgp1{
+div#imgp1{ /* contiene las imagenes pequeñas de la zona principal del index */
 	width: 635px;
 	height: 600px;
 	margin-left: 300px;
@@ -54,18 +61,18 @@ div#imgp1{
 	display: flex;
 	flex-wrap: wrap;
 }
-img#is1{
+img#is1{/* ajusta el tamaño de cada imagen pequeña en imgp1 en index*/
 	margin-left: 15px;
 	width: 295px;
 	height: 295px;
 	border-radius: 5px;
 }
-img#ir1{
+img#ir1{ /* ajusta el tamaño de la imagen (gif) principal de index*/
 	width: 700px;
 	height: 595px;
 	border-radius: 10px;
 }
-div#imgp2{
+div#imgp2{ /* contiene la imagen (gif) principal de index*/
 	width: 700px;
 	height: 600px;
 	margin-top: -100px;
@@ -73,7 +80,7 @@ div#imgp2{
 	justify-content: center;
 	align-items: center;
 }
-p#t3{
+p#t3{ /* le da formato al texto de la descripción en index*/
 	font-family: Tahoma, Verdana, sans-serif;
 	letter-spacing: 1px;
 	font-size: 38px;
@@ -81,43 +88,99 @@ p#t3{
 	font-weight: bold;
 	color: #b7a08e;
 }
-div#pie{
+div#secm{/*contenedor del texto que divide las secciones del menu*/
+	margin-top: 10px;
+	margin-left: 300px;
+	padding-bottom: 10px;
+	width: 1600px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+p#tsecm{/*texto que divide las secciones del menu*/
+	font-family: Helvetica,Arial,sans-serif;
+	letter-spacing: 1.5px;
+	font-size: 34px;
+	font-style: italic;
+	font-weight: 900;
+	color: #b7a08e;
+}
+div#mib{/*contenedor base de cada item del menu*/
+	margin-top: 10px;
+	margin-left: 300px;
+	width: 1600px;
+	height: 180px;
+	display: flex;
+	align-items: center;
+}
+div#mit{/*contenedor del texto del item del menu*/
+	width: 800px;
+	height: 180px;
+	display: flex;
+	align-items: center;
+}
+p#mt1{/*formato para el texto de los items del menu*/
+	margin-left: 100px;
+	font-family: Tahoma, Verdana, sans-serif;
+	letter-spacing: 1.5px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #b7a08e;
+}
+img#imgm{/*formato para las imagenes items del menu*/
+	margin-left: 100px;
+	width: 200px;
+	height: 200px;
+}
+img#imgm2{/*formato secundario para las imagenes items del menu*/
+	margin-left: 120px;
+	width: 165px;
+	height: 165px;
+	border-radius: 50px;
+}
+img#imgmL{/*formato para el logo en el menu*/
+	margin-top: 100px;
+	margin-left: 600px;
+	width: 760px;
+	height: 556px;
+}
+div#pie{ /* div base del pie de pagina */
 	background-color: #1F1F1F;
 	widht:  auto;
 	height: 160px;
 	display: flex;
 }
-div#pieC{
+div#pieC{/* div del pie que contiene la info de contacto*/
 	margin-left: 250px;
 	width: 500px;
 	height: 120px;
 }
-div#pieR{
+div#pieR{/* div del pie que contiene a las redes*/
 	margin-left: 660px;
 	width: 350px;
 	height: 120px;
 }
-div#lredes{
+div#lredes{/* div de pieR que contiene los logos de las redes*/
 	width: 330px;
 	height: 60px;
 	margin-top: -8px;
 	margin-left: 10px;
 	display: flex;
 }
-img#logot{
+img#logot{/* redimensiona el logo de twitter*/
 	width: 39px;
 	height: 33px;
 }
-img#logof{
+img#logof{/* redimensiona el logo de facebook*/
 	margin-left: 50px;
 	width: 20px;
 	height: 35px;
 }
-p#t2{
+p#t2{/* Texto 2: formato usado en el texto del pie*/
 	letter-spacing: 1.5px;
 	font-size: 18px;
 	color: #747474;
 }
-a{
+a{/* evita que los links se subrayen con color azul/purpura */
 text-decoration: none;
 } 
